@@ -1,4 +1,4 @@
-<h3>Description</h3>
+h2. Description
 
 This plugin appends a vertical scrollbar to any element which you need to limit its dimensions like an image, a div or an ul list etc. This is the initial release of this plugin, so feel free to test it and give me some feedback so I can update this plugin with new improvements or with bug free versions. (horizontal scrollbar will be added later.)
 
@@ -12,37 +12,37 @@ File sizes are 7.36 kBytes for the development version, 4.08 kBytes for the mini
 
  
 
-<h3>Demo</h3>
+h2. Demo
 
-You can see a working example at <a href="http://www.tahapaksu.com/programlama/jquery-scrolite-plugin" target="_blank">tahapaksu.com</a>.
+You can see a working example at "tahapaksu.com":http://www.tahapaksu.com/programlama/jquery-scrolite-plugin.
 
  
 
-<h3>Installation</h3>
+h2. Installation
 
-Include these lines into your script’s &lt;head&gt; declaration:
+Include these lines into your script’s <head> declaration:
 
-<pre class="example">
-&lt;script src="lib/jquery.min.js" type="text/javascript"&gt;&lt;/script&gt;
-&lt;script src="lib/jquery.scrolite.min.js" type="text/javascript"&gt;&lt;/script&gt;
-&lt;script src="lib/jquery.mousewheel.js" type="text/javascript"&gt;&lt;/script&gt;
-&lt;link rel="stylesheet" href="styles/jquery.scrolite.css"&gt;&lt;/link&gt;
-</pre>
+<pre><code>
+<script src="lib/jquery.min.js" type="text/javascript"></script>
+<script src="lib/jquery.scrolite.min.js" type="text/javascript"></script>
+<script src="lib/jquery.mousewheel.js" type="text/javascript"></script>
+<link rel="stylesheet" href="styles/jquery.scrolite.css"></link>
+</code></pre>
 
-<h3>Usage</h3>
+h2. Usage
 
 Then use this script with :
-<pre class="example">
+<pre><code>
 $(".scrollable").scrolite({
 width:500,
 height:300
 });
-</pre>
+</code></pre>
 
-<h3>Options</h3>
+h2. Options
 
 The plugin options are:
-<pre class="example">
+<pre><code>
 ‘barColor’ : The color of the scrollbar handle
 ‘bedColor’ : The color of the scrollbar bed
 ‘bedWidth’ : Width of the scrollbar bed
@@ -52,20 +52,24 @@ The plugin options are:
 ‘width’ : scrollable area width
 ‘height’ : scrollable area height
 ‘scrollSensitivity’ : pixel scrolling value of one tick of the mousewheel
-</pre>
-<h3>CSS Elements</h3>
+</code></pre>
+
+h2. CSS Elements
 
 You can change other CSS values by referring to these classes in your styles file:
-<pre class="example">
+<pre><code>
 ‘.scrolite’ : refers to container of all the elements below
 ‘.scrolite-bed’ : refers to scrollbar bed element
 ‘.scrolite-bar’ : refers to scrollbar handle element
 ‘.scrolite-container’ : refers to the scrollable area wrapper
-</pre>
-<h3>Public Functions</h3>
+</code></pre>
+
+h2. Public Functions
 
 If you are using an AJAX script to load it’s contents from somewhere, you can refresh the scrollbar’s calculations by this function (included in the demo file):
-<pre class="example>
+
+<pre><code>
 $(".scrollable").data("scrolite").refresh()
-</pre>
+</code></pre>
+
 The “.scrollable” refers to your initial element which you’ve added the scrollbar.
