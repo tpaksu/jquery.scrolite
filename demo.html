@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<script src="lib/jquery.min.js" type="text/javascript"></script>
+		<script src="lib/jquery.scrolite.js" type="text/javascript"></script>
+		<script src="lib/jquery.mousewheel.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="styles/jquery.scrolite.css"></link>
+		<title>Scrolite Demo</title>
+	</head>
+	<body>
+	<div class="scrollable">
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet turpis sit amet dolor vehicula sed sagittis urna aliquam. Aenean id condimentum leo. Duis nec purus sapien, vel tincidunt felis. Phasellus enim tortor, ultrices sed luctus sit amet, sollicitudin nec ipsum. Proin quam arcu, scelerisque a rutrum id, pellentesque id est. Curabitur purus enim, fringilla non hendrerit sed, pulvinar eu leo. Aliquam suscipit consectetur mauris, quis euismod lacus mattis non. In libero felis, pellentesque in cursus quis, posuere eu massa. Quisque tincidunt nibh vitae justo imperdiet laoreet.
+
+Donec dapibus libero eget ligula lacinia eu sodales eros euismod. Cras et sapien leo, eget tempor ipsum. Sed quis sem dolor. In eget massa volutpat libero dapibus dignissim. Nulla vel mauris neque, eu porta turpis. Vestibulum convallis mattis pharetra. Nulla vel interdum turpis. Nam semper, enim et consectetur pulvinar, libero orci ultrices sapien, ut suscipit orci dolor sit amet velit. Sed a quam ipsum, at fringilla lorem. Donec eu diam id nibh pulvinar accumsan.
+
+Aenean interdum pharetra pharetra. Nullam luctus nunc vitae eros tincidunt dapibus. Vivamus quis eros in magna sollicitudin pellentesque. Proin lorem metus, facilisis non sollicitudin eu, adipiscing a neque. Fusce nec sapien purus. Quisque eu libero elit. Nullam porttitor molestie vestibulum. In vitae ante eu lorem hendrerit commodo. Suspendisse potenti. Vivamus feugiat, tortor nec lacinia adipiscing, lacus massa laoreet enim, sed porta lacus odio vitae augue. Nam rhoncus turpis ac est vulputate gravida.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas nec justo massa. In hac habitasse platea dictumst. Integer a lorem vitae nibh suscipit aliquam vitae ac massa. Nunc id enim ut enim rutrum tempus. Sed fringilla metus in libero aliquam sodales. Morbi eleifend pharetra mauris, fermentum mattis mauris tristique eget. In imperdiet nibh id massa varius sed consectetur mi dictum. Vivamus eros odio, consequat vel commodo id, vehicula ut orci. Nullam lectus felis, lacinia eget varius nec, iaculis a velit.
+
+Suspendisse id lectus neque. Morbi suscipit convallis volutpat. Nulla fermentum nisi diam, quis dignissim ante. Proin pretium dignissim consectetur. Aliquam erat volutpat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque non libero erat. Etiam ultrices odio eu dui tincidunt porta. Cras vitae ipsum mauris, non pulvinar lectus.
+	</div>	<br>
+	<input type="button" value="Change Content" onclick="addContent();">
+	<br><br>
+	<img src="http://d24w6bsrhbeh9d.cloudfront.net/photo/3840687_700b.jpg" class="scrollable2">
+	<script type="text/javascript">
+		$(".scrollable").scrolite({
+			width:500,
+			height:300
+		});
+		
+		$(".scrollable2").scrolite({
+			width:700,
+			height:400
+		});
+		
+		var addContent = function(){			
+			$(".scrollable").html($(".scrollable").html() + $(".scrollable").html()).data("scrolite").refresh();
+		}
+		
+	</script>
+	</body>
+</html>
