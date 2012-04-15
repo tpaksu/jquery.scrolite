@@ -9,158 +9,167 @@
 		<title>Scrolite Demo</title>
 	</head>
 	<body>
-		<div style="float:left">
-			Applied to DIV element, refreshes on content change:<br>
-			<div class="scrollable">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet turpis sit amet dolor vehicula sed sagittis urna aliquam. Aenean id condimentum leo. Duis nec purus sapien, vel tincidunt felis. Phasellus enim tortor, ultrices sed luctus sit amet, sollicitudin nec ipsum. Proin quam arcu, scelerisque a rutrum id, pellentesque id est. Curabitur purus enim, fringilla non hendrerit sed, pulvinar eu leo. Aliquam suscipit consectetur mauris, quis euismod lacus mattis non. In libero felis, pellentesque in cursus quis, posuere eu massa. Quisque tincidunt nibh vitae justo imperdiet laoreet.
+		<div class="header1">jQuery Scrolite Demo</div>
+	
+			<div class="demo">
+				<div class="header">Applied to DIV element, refreshes on content change:</div><br>
+				<div class="scrollable">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet turpis sit amet dolor vehicula sed sagittis urna aliquam. Aenean id condimentum leo. Duis nec purus sapien, vel tincidunt felis. Phasellus enim tortor, ultrices sed luctus sit amet, sollicitudin nec ipsum. Proin quam arcu, scelerisque a rutrum id, pellentesque id est. Curabitur purus enim, fringilla non hendrerit sed, pulvinar eu leo. Aliquam suscipit consectetur mauris, quis euismod lacus mattis non. In libero felis, pellentesque in cursus quis, posuere eu massa. Quisque tincidunt nibh vitae justo imperdiet laoreet.
 
-				Donec dapibus libero eget ligula lacinia eu sodales eros euismod. Cras et sapien leo, eget tempor ipsum. Sed quis sem dolor. In eget massa volutpat libero dapibus dignissim. Nulla vel mauris neque, eu porta turpis. Vestibulum convallis mattis pharetra. Nulla vel interdum turpis. Nam semper, enim et consectetur pulvinar, libero orci ultrices sapien, ut suscipit orci dolor sit amet velit. Sed a quam ipsum, at fringilla lorem. Donec eu diam id nibh pulvinar accumsan.
+					Donec dapibus libero eget ligula lacinia eu sodales eros euismod. Cras et sapien leo, eget tempor ipsum. Sed quis sem dolor. In eget massa volutpat libero dapibus dignissim. Nulla vel mauris neque, eu porta turpis. Vestibulum convallis mattis pharetra. Nulla vel interdum turpis. Nam semper, enim et consectetur pulvinar, libero orci ultrices sapien, ut suscipit orci dolor sit amet velit. Sed a quam ipsum, at fringilla lorem. Donec eu diam id nibh pulvinar accumsan.
 
-				Aenean interdum pharetra pharetra. Nullam luctus nunc vitae eros tincidunt dapibus. Vivamus quis eros in magna sollicitudin pellentesque. Proin lorem metus, facilisis non sollicitudin eu, adipiscing a neque. Fusce nec sapien purus. Quisque eu libero elit. Nullam porttitor molestie vestibulum. In vitae ante eu lorem hendrerit commodo. Suspendisse potenti. Vivamus feugiat, tortor nec lacinia adipiscing, lacus massa laoreet enim, sed porta lacus odio vitae augue. Nam rhoncus turpis ac est vulputate gravida.
+					Aenean interdum pharetra pharetra. Nullam luctus nunc vitae eros tincidunt dapibus. Vivamus quis eros in magna sollicitudin pellentesque. Proin lorem metus, facilisis non sollicitudin eu, adipiscing a neque. Fusce nec sapien purus. Quisque eu libero elit. Nullam porttitor molestie vestibulum. In vitae ante eu lorem hendrerit commodo. Suspendisse potenti. Vivamus feugiat, tortor nec lacinia adipiscing, lacus massa laoreet enim, sed porta lacus odio vitae augue. Nam rhoncus turpis ac est vulputate gravida.
 
-				Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas nec justo massa. In hac habitasse platea dictumst. Integer a lorem vitae nibh suscipit aliquam vitae ac massa. Nunc id enim ut enim rutrum tempus. Sed fringilla metus in libero aliquam sodales. Morbi eleifend pharetra mauris, fermentum mattis mauris tristique eget. In imperdiet nibh id massa varius sed consectetur mi dictum. Vivamus eros odio, consequat vel commodo id, vehicula ut orci. Nullam lectus felis, lacinia eget varius nec, iaculis a velit.
+					Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas nec justo massa. In hac habitasse platea dictumst. Integer a lorem vitae nibh suscipit aliquam vitae ac massa. Nunc id enim ut enim rutrum tempus. Sed fringilla metus in libero aliquam sodales. Morbi eleifend pharetra mauris, fermentum mattis mauris tristique eget. In imperdiet nibh id massa varius sed consectetur mi dictum. Vivamus eros odio, consequat vel commodo id, vehicula ut orci. Nullam lectus felis, lacinia eget varius nec, iaculis a velit.
 
-				Suspendisse id lectus neque. Morbi suscipit convallis volutpat. Nulla fermentum nisi diam, quis dignissim ante. Proin pretium dignissim consectetur. Aliquam erat volutpat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque non libero erat. Etiam ultrices odio eu dui tincidunt porta. Cras vitae ipsum mauris, non pulvinar lectus.
-			</div>	<br>
-			<input type="button" value="Duplicate Content" onclick="addContent();">
-		</div>
+					Suspendisse id lectus neque. Morbi suscipit convallis volutpat. Nulla fermentum nisi diam, quis dignissim ante. Proin pretium dignissim consectetur. Aliquam erat volutpat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque non libero erat. Etiam ultrices odio eu dui tincidunt porta. Cras vitae ipsum mauris, non pulvinar lectus.
+				</div>	<br>
+				<input type="button" value="Duplicate Content" onclick="addContent();">
+			</div>
 
-		<div style="float:left">Applied to IMG element (calculating dimensions after load complete)<br>
-			<img src="http://d24w6bsrhbeh9d.cloudfront.net/photo/3840687_700b.jpg" class="scrollable2">
-		</div>
-		<div style="float:left">
+			<div class="demo"><div class="header">Applied to IMG element (calculating dimensions after load complete)</div><br>
+				<img src="http://d24w6bsrhbeh9d.cloudfront.net/photo/3840687_700b.jpg" class="scrollable2">
+			</div>
+			<div class="demo">
+				<div class="header">Applied to UL element:</div><br>
+				<ul class="scrollable3">
+					<li>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</li>
+					<li>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</li>
+					<li>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.</li>
+					<li>Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.</li>
+				</ul>
 
-			<ul class="scrollable3">
-				<li>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</li>
-				<li>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</li>
-				<li>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.</li>
-				<li>Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.</li>
-			</ul>
+			</div>
+			<div class="demo">
+				<div class="header">Applied to OL element:</div><br>
 
-		</div>
-		<div style="float:left">
-			Applied to OL element:<br>
+				<ol class="scrollable3">
+					<li>Coffee</li>
+					<li>Tea</li>
+					<li>Milk</li>
+					<li>Coffee</li>
+					<li>Tea</li>
+					<li>Milk</li>
+					<li>Coffee</li>
+					<li>Tea</li>
+					<li>Milk</li>
+					<li>Coffee</li>
+					<li>Tea</li>
+					<li>Milk</li>
+					<li>Coffee</li>
+					<li>Tea</li>
+					<li>Milk</li>
+					<li>Coffee</li>
+					<li>Tea</li>
+					<li>Milk</li>
+					<li>Coffee</li>
+					<li>Tea</li>
+					<li>Milk</li>
+					<li>Coffee</li>
+					<li>Tea</li>
+					<li>Milk</li>
+					<li>Coffee</li>
+					<li>Tea</li>
+					<li>Milk</li>
+					<li>Coffee</li>
+					<li>Tea</li>
+					<li>Milk</li>
+				</ol>
 
-			<ol class="scrollable3">
-				<li>Coffee</li>
-				<li>Tea</li>
-				<li>Milk</li>
-				<li>Coffee</li>
-				<li>Tea</li>
-				<li>Milk</li>
-				<li>Coffee</li>
-				<li>Tea</li>
-				<li>Milk</li>
-				<li>Coffee</li>
-				<li>Tea</li>
-				<li>Milk</li>
-				<li>Coffee</li>
-				<li>Tea</li>
-				<li>Milk</li>
-				<li>Coffee</li>
-				<li>Tea</li>
-				<li>Milk</li>
-				<li>Coffee</li>
-				<li>Tea</li>
-				<li>Milk</li>
-				<li>Coffee</li>
-				<li>Tea</li>
-				<li>Milk</li>
-				<li>Coffee</li>
-				<li>Tea</li>
-				<li>Milk</li>
-				<li>Coffee</li>
-				<li>Tea</li>
-				<li>Milk</li>
-			</ol>
+			</div>
+			<div class="demo">
+				<div class="header">Applied to DL element:</div><br>
 
-		</div>
-		<div style="float:left">
-			Applied to DL element:<br>
+				<dl class="scrollable3">
+					<dt>Definition list</dt>
+					<dd>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+						aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+						commodo consequat.</dd>
+					<dt>Lorem ipsum dolor sit amet</dt>
+					<dd>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+						aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+						commodo consequat.</dd>
+				</dl>
+			</div>
+			<div class="demo">
+				<div class="header">Applied to TABLE element:</div><br>
 
-			<dl class="scrollable3">
-				<dt>Definition list</dt>
-				<dd>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
-					aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
-					commodo consequat.</dd>
-				<dt>Lorem ipsum dolor sit amet</dt>
-				<dd>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
-					aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
-					commodo consequat.</dd>
-			</dl>
-		</div>
-		<div style="float:left">
-			Applied to TABLE element:<br>
+				<table class="scrollable3">
+					<thead>
+						<tr>
+							<th>Header 1</th>
+							<th>Header 2</th>
+							<th>Header 3</th>
+							<th>Header 4</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Row 1-1</td>
+							<td>Row 1-2</td>
+							<td>Row 1-3</td>
+							<td>Row 1-4</td>
+						</tr>
+						<tr>
+							<td>Row 2-1</td>
+							<td>Row 2-2</td>
+							<td>Row 2-3</td>
+							<td>Row 2-4</td>
+						</tr>
+						<tr>
+							<td>Row 3-1</td>
+							<td>Row 3-2</td>
+							<td>Row 3-3</td>
+							<td>Row 3-4</td>
+						</tr>
+						<tr>
+							<td>Row 4-1</td>
+							<td>Row 4-2</td>
+							<td>Row 4-3</td>
+							<td>Row 4-4</td>
+						</tr>
+						<tr>
+							<td>Row 5-1</td>
+							<td>Row 5-2</td>
+							<td>Row 5-3</td>
+							<td>Row 5-4</td>
+						</tr>
+						<tr>
+							<td>Row 6-1</td>
+							<td>Row 6-2</td>
+							<td>Row 6-3</td>
+							<td>Row 6-4</td>
+						</tr>
+						<tr>
+							<td>Row 7-1</td>
+							<td>Row 7-2</td>
+							<td>Row 7-3</td>
+							<td>Row 7-4</td>
+						</tr>
+						<tr>
+							<td>Row 8-1</td>
+							<td>Row 8-2</td>
+							<td>Row 8-3</td>
+							<td>Row 8-4</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="demo">
+				<div class="header">Applied to "P" element:(more sensitive : 1)</div><br>
+				<p class="scrollable4">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
 
-			<table class="scrollable3">
-				<thead>
-					<tr>
-						<th>Header 1</th>
-						<th>Header 2</th>
-						<th>Header 3</th>
-						<th>Header 4</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>Row 1-1</td>
-						<td>Row 1-2</td>
-						<td>Row 1-3</td>
-						<td>Row 1-4</td>
-					</tr>
-					<tr>
-						<td>Row 2-1</td>
-						<td>Row 2-2</td>
-						<td>Row 2-3</td>
-						<td>Row 2-4</td>
-					</tr>
-					<tr>
-						<td>Row 3-1</td>
-						<td>Row 3-2</td>
-						<td>Row 3-3</td>
-						<td>Row 3-4</td>
-					</tr>
-					<tr>
-						<td>Row 4-1</td>
-						<td>Row 4-2</td>
-						<td>Row 4-3</td>
-						<td>Row 4-4</td>
-					</tr>
-					<tr>
-						<td>Row 5-1</td>
-						<td>Row 5-2</td>
-						<td>Row 5-3</td>
-						<td>Row 5-4</td>
-					</tr>
-					<tr>
-						<td>Row 6-1</td>
-						<td>Row 6-2</td>
-						<td>Row 6-3</td>
-						<td>Row 6-4</td>
-					</tr>
-					<tr>
-						<td>Row 7-1</td>
-						<td>Row 7-2</td>
-						<td>Row 7-3</td>
-						<td>Row 7-4</td>
-					</tr>
-					<tr>
-						<td>Row 8-1</td>
-						<td>Row 8-2</td>
-						<td>Row 8-3</td>
-						<td>Row 8-4</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-		<div style="float:left">
-			Applied to "P" element:<br>
-			<p class="scrollable4">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+			</div>
 
-		</div>
-
-
-		<style>.scrolite {margin:30px !important;} * { font-family:sans-serif;font-size:1em;}</style>
+		</center>
+		<style>
+			.scrolite {margin:30px !important;} 
+			* { font-family:Calibri;font-size:1em;}	
+			.header {font-weight:bold;margin-bottom:20px;}	
+			.demo {padding:30px;}
+			.demo:nth-child(2n+1) {background:#ddd;}
+			.header1 {font-size:28px;font-family:Verdana;font-weight:bold;padding:30px;}
+		</style>
 
 		<script type="text/javascript">
 			$(".scrollable").scrolite({
@@ -169,15 +178,17 @@
 			});
 
 			$(".scrollable2").scrolite({
-					width:700,
+					width:710,
 					height:400
 			});
 
 			$(".scrollable3").scrolite({
 					width:275,
-					height:100,
+					height:200,
 					barColor: "black",
-					bedColor: "green"
+					bedColor: "green",
+					bedCornerRadius:0,
+					barCornerRadius:0
 			});
 
 			$(".scrollable4").scrolite({
@@ -186,12 +197,10 @@
 					barColor: "blue",
 					bedColor: "cyan",
 					bedWidth: 20,
-					barWidth: 15
-			});
-			
-			$(".scrollable4").scrolite({
-					width:200,
-					height:400
+					barWidth: 15,
+					sensitivity:1,
+					bedCornerRadius:10,
+					barCornerRadius:8
 			});
 
 			var addContent = function(){			
