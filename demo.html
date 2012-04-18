@@ -26,10 +26,11 @@
 				</div>	<br>
 				<input type="button" value="Duplicate Content" onclick="addContent();">
 			</div>
-
+            
 			<div class="demo"><div class="header">Applied to IMG element (calculating dimensions after load complete)</div><br>
 				<img src="http://d24w6bsrhbeh9d.cloudfront.net/photo/3840687_700b.jpg" class="scrollable2">
 			</div>
+            
 			<div class="demo">
 				<div class="header">Applied to UL element:</div><br>
 				<ul class="scrollable3">
@@ -185,22 +186,22 @@
 			$(".scrollable3").scrolite({
 					width:275,
 					height:200,
-					barColor: "black",
-					bedColor: "green",
-					bedCornerRadius:0,
-					barCornerRadius:0
+					barColor: "white",
+					bedColor: "silver",
+					bedCornerRadius:1,
+					barCornerRadius:2
 			});
 
 			$(".scrollable4").scrolite({
 					width:300,
 					height:300,
-					barColor: "blue",
-					bedColor: "cyan",
+					barColor: "#131315",
+					bedColor: "#333335",
 					bedWidth: 20,
 					barWidth: 15,
 					sensitivity:1,
-					bedCornerRadius:10,
-					barCornerRadius:8
+					bedCornerRadius:6,
+					barCornerRadius:4
 			});
 
 			var addContent = function(){			
